@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page1{
+    font-family: 'Itim', cursive;
+    background-color: black;
+    color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1{
+    margin-bottom: 0.7rem;
+}
+
+.image{
+    /* width: 30vw; */
+    align-self:center;
+    margin-top: 1.7rem;
+}
+
+img{
+    max-width: 100%;
+    align-self: center;
+}
+
+#startQuiz{
+    margin-top: 4rem;
+    padding: 8px 11px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+#startQuiz:hover{
+    background-color: #000000;
+    color: #e9ecef;
+}
+
+
+#page2{
+    background-color: #2a9d8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Itim', cursive;
+}
+
+.container{
+    max-width: 40rem;
+    border: 2px solid black;
+    align-self: center;
+    margin-top: 10rem;
+    padding: 8px 55px 8px 15px;
+    font-size: 2rem;
+    border-radius: 8px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.btn{
+    padding: 4px 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+    background-color: #000000;
+    color: #e9ecef;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 3px;
+}
+
+
+.time{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.time__heading{
+    font-size: 1.3rem;
+}
+
+.time__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1,.box2{
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
